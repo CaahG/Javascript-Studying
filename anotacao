@@ -11,3 +11,6 @@
 //Daily Scrum: É uma reunião diária de curta duração (geralmente de 15 minutos) em que a equipe de desenvolvimento se encontra para sincronizar suas atividades
  //Essas cerimônias ajudam a garantir a transparência, 
  //a colaboração e o progresso contínuo durante o ciclo de desenvolvimento. Elas promovem a comunicação eficaz, permitem a adaptação às mudanças e possibilitam que a equipe de desenvolvimento entregue um produto de qualidade em cada Sprint.
+
+ //[AutAPI] Configuração Básica configurar o ambiente para testar APIs usando o Playwright e ferramentas de teste manual como Postman e Insomnia.
+ 
