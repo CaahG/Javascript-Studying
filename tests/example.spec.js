@@ -27,7 +27,7 @@ test('PUT request to JSON Placeholder', async ({ request }) => {
 test('DELETE request to JSON Placeholder', async ({ request }) => {
   const response = await request.delete('https://jsonplaceholder.typicode.com/posts/1');
   expect(response.status()).toBe(200);
-});0
+});
 
 
 

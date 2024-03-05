@@ -1,16 +1,62 @@
-// linhas de comentários para Anotação 
+# Anotações de Desenvolvimento e Testes
 
-//GET Request Para fazer uma solicitação GET, que é usada para recuperar dados de uma API:
+## Configuração Básica de Ambiente para Teste de APIs
 
-//get - na parte direita vai ter uma parte "status " muito importante 
+- **[AutAPI]** Configurar o ambiente para testar APIs usando o Playwright e ferramentas de teste manual como Postman e Insomnia.
 
-//POST Request é um dos vários métodos de solicitação suportados pelo protocolo HTTP, usado principalmente para enviar dados para um servidor a fim de criar ou atualizar recursos.
+## Metodologias Ágeis
 
-// JSON Placeholder API. na verdade são get,post , put 
+### O que é Scrum
 
-//Daily Scrum: É uma reunião diária de curta duração (geralmente de 15 minutos) em que a equipe de desenvolvimento se encontra para sincronizar suas atividades
- //Essas cerimônias ajudam a garantir a transparência, 
- //a colaboração e o progresso contínuo durante o ciclo de desenvolvimento. Elas promovem a comunicação eficaz, permitem a adaptação às mudanças e possibilitam que a equipe de desenvolvimento entregue um produto de qualidade em cada Sprint.
+- Scrum é um framework de desenvolvimento de software que promove a colaboração da equipe, a responsabilidade e o progresso iterativo em direção a um objetivo bem definido.
 
- //[AutAPI] Configuração Básica configurar o ambiente para testar APIs usando o Playwright e ferramentas de teste manual como Postman e Insomnia.
- 
+### Sprint Planning
+
+- Esta é uma reunião onde o time planeja o trabalho que será realizado na próxima Sprint.
+
+### Sprint Backlog
+
+- Para atingir os objetivos do Sprint e entregar um incremento do produto.
+
+## Tipos Básicos de Testes
+
+### Testes Unitários
+
+- Buscam verificar se elementos individuais (unidades) do sistema estão corretos, mas não garantem que o sistema funcionará como planejado quando as unidades forem integradas.
+
+### Testes de Integração
+
+- Mais complexos para serem desenvolvidos e mais lentos ao serem executados.
+- O ideal é realizar testes de integração após a realização dos testes unitários, garantindo que as unidades estão corretas individualmente e também que funcionam em conjunto.
+
+### Testes Automatizados
+
+- Podem ser executados sem a necessidade de uma pessoa em todas as etapas de testes.
+
+### Mocks
+
+- São frequentemente usados em testes de unidade e testes automatizados para simular o comportamento de dependências externas ou componentes do sistema que não são o foco do teste.
+
+## Papéis no Desenvolvimento Ágil
+
+### Product Owner (PO)
+
+- O PO é responsável por maximizar o valor do produto criado pela equipe de desenvolvimento. Ele mantém e prioriza o Product Backlog.
+
+## Hierarquia de Testes
+
+1. Teste Unitário
+2. Teste de Integração
+3. Teste Funcional
+4. Teste de Aceitação
+
+### Teste Funcional
+
+- Também conhecido como teste da caixa preta, verifica aspectos externos. Os requisitos funcionais do sistema são avaliados.
+
+### Teste de Aceitação
+
+- Determina se um sistema satisfaz os critérios de aceitação e permite ao cliente determinar se aceita ou não o sistema.
+
+### eu estou com fomeeeeeeeeee
+
